@@ -51,3 +51,12 @@ Follow the instructions below to set up and run the app
 ## documentation
 
 - I have left comments all around project to explain decisions or technics used
+- I used nativewind for styling this app but in some reactNative containers like scroll view
+  you need to style it with css , ususally you want to be consistent in the styling ways so the code becomes clearer
+  and more understandable for others
+  -to handle HTTP requests and manage API calls efficiently. Axios provides a clean and concise way to work with promises, making the code easier to read and maintain.
+- since fakestore api doesn't have roles to the users (as admin or just user), authentication was the only way to handle if you can edit
+  or delete a product. in normal world scenarios we would have roles to decide wether you can edit a product or not
+- and fakestore api does not return a token for the user when creating a user to i had to simulate the token with the id returned to persist the authentication state
+- i have used reusable components with props to ensure continuity
+- some functions are added but not implemented yet as in setting darkmode for the app
