@@ -73,7 +73,7 @@ export const deleteProduct = async (id) => {
     console.error("Failed to delete product:", error);
   }
 };
-// fetch all getusercart is done and works
+//  getusercart is done and works
 export const getUserCart = async (userId) => {
   const response = await axios.get(`https://fakestoreapi.com/carts/${userId}`);
   if (response.status === 200) {
