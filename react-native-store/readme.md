@@ -54,7 +54,7 @@ Follow the instructions below to set up and run the app
 - I used nativewind for styling this app but in some reactNative containers like scroll view
   you need to style it with css , ususally you want to be consistent in the styling ways so the code becomes clearer
   and more understandable for others
-  -to handle HTTP requests and manage API calls efficiently. Axios provides a clean and concise way to work with promises, making the code easier to read and maintain.
+  -to handle HTTP requests and manage API calls efficiently. Axios provides a clean and concise way to work with promises, making the code easier to read and maintain. but unlike the nextjs app I just used requests for fetching the products by category and id but in this case it wouldn't affect performance as we are dealing with small data but in real world scenario this would change
 - since fakestore api doesn't have roles to the users (as admin or just user), authentication was the only way to handle if you can edit
   or delete a product. in normal world scenarios we would have roles to decide wether you can edit a product or not
 - and fakestore api does not return a token for the user when creating a user to i had to simulate the token with the id returned to persist the authentication state
